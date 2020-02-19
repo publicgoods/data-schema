@@ -3,7 +3,7 @@
 	"$comment" : "Digital Public Good Metaschema: JSON Schema",
 	"title": "Digital Public Good",
  	"type": "object",
-    "required": [ "name", "description", "license", "repositoryURL", "SDGs", "type"],
+  "required": [ "name", "description", "license", "repositoryURL", "SDGs", "type"],
  	"properties": {
  		"name": {
      		"type": "string",
@@ -493,7 +493,7 @@
                     },
                     "org_type": {
                       "type": "string",
-                      "enum": ["owner, maintainer, funder, implementer"]
+                      "enum": ["owner", "maintainer", "funder", "implementer"]
                     }
                 }
             }
