@@ -3,7 +3,7 @@
 	"$comment" : "Digital Public Good Metaschema: JSON Schema",
 	"title": "Digital Public Good",
  	"type": "object",
-  "required": [ "name", "description", "license", "repositoryURL", "SDGs", "type"],
+  "required": [ "name", "description", "license", "organizations", "SDGs", "type"],
  	"properties": {
  		"name": {
      		"type": "string",
