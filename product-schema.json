@@ -41,7 +41,8 @@
       "items": {
         "type": "object",
         "required": [
-          "spdx"
+          "spdx",
+          "licenseURL"
         ],
         "properties": {
           "spdx": {
