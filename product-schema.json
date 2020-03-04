@@ -561,8 +561,14 @@
     },
     "organizations": {
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "items": {
         "type": "object",
+        "required": [
+          "name",
+          "org_type"
+        ],
         "properties": {
           "name": {
             "type": "string",
