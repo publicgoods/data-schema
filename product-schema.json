@@ -543,14 +543,15 @@
     },
     "type": {
       "type": "array",
-      "description": "List of categories under which this Global Digital Public Good falls into: software, data, standards.",
+      "description": "List of categories under which this Global Digital Public Good falls into: content, data, software, standards.",
       "minItems": 1,
       "uniqueItems": true,
       "items": {
         "type": "string",
         "enum": [
-          "software",
+          "content",
           "data",
+          "software",
           "standard"
         ]
       }
