@@ -461,6 +461,10 @@
         ]
       }
     },
+    "SDGevidence": {
+      "type": "string",
+      "description": "Relevant links or information to support the relevance to SDGs."
+    }, 
     "sectors": {
       "type": "array",
       "description": "List of sectors that this Global Digital Public Good addresses.",
