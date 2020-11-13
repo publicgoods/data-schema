@@ -521,7 +521,8 @@
           "content",
           "data",
           "software",
-          "standard"
+          "standard",
+          "aimodel"
         ]
       }
     },
